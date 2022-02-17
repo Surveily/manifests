@@ -217,7 +217,7 @@ def server_factory(visualization_server_image,
                         "host": "ml-pipeline-visualizationserver",
                         "trafficPolicy": {
                             "tls": {
-                                "mode": "ISTIO_MUTUAL"
+                                "mode": "DISABLE"
                             }
                         }
                     }
